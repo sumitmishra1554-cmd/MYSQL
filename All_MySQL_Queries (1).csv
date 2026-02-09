@@ -1,9 +1,0 @@
-Question_No,Description,SQL_Query
-Q1,Show employees working in IT or HR,"SELECT * FROM Employees WHERE Department IN ('IT','HR');"
-Q2,"Sales, IT, or Finance department","SELECT * FROM Employees WHERE Department IN ('Sales','IT','Finance');"
-Q3,Salary between 50000 and 70000,SELECT * FROM Employees WHERE Salary BETWEEN 50000 AND 70000;
-Q4,Names start with A,SELECT * FROM Employees WHERE EmpName LIKE 'A%';
-Q5,Names contain an,SELECT * FROM Employees WHERE EmpName LIKE '%an%';
-Q6,Delhi or Mumbai and Salary > 55000,"SELECT * FROM Employees WHERE City IN ('Delhi','Mumbai') AND Salary > 55000;"
-Q7,Exclude HR department,SELECT * FROM Employees WHERE Department <> 'HR';
-Q8,Hired between 2019 and 2022 ordered by HireDate,SELECT * FROM Employees WHERE HireDate BETWEEN '2019-01-01' AND '2022-12-31' ORDER BY HireDate ASC;
